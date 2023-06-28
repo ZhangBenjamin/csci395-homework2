@@ -1,0 +1,17 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+    padding: red;
+}
+
+
+.text-box {
+    background-color: white;
+    
+}
+#enter {
+    background-color: lightblue;
+}
+#ac {
+    background-color: red;
+}
