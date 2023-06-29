@@ -45,16 +45,26 @@ function calculatepercent() {
 
 function calculatelog(){
     let equation = document.getElementById("result").value;
-    let answer = Math.log(equation);
+    let answer = Math.log10(equation);
     document.getElementById("result").value = answer;
 }
 function calculateln(){
     let equation = document.getElementById("result").value;
-    let answer = Math.LN10(equation);
+    let answer = Math.log(equation);
     document.getElementById("result").value = answer;
 }
 function calculatesqrt(){
     let equation = document.getElementById("result").value;
     let answer = Math.sqrt(equation);
     document.getElementById("result").value = answer;
+}
+
+function calculatefactorial(x) {
+    if (x == 0) {
+        document.getElementById("result").value = answer;
+    }
+    let equation = document.getElementById("result").value;
+    let answer = x * calculatefactorial(x - 1);
+    
+
 }
