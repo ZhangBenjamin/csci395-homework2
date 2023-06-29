@@ -13,4 +13,8 @@ function calculate() {
     let answer = eval(equation);
     document.getElementById("result").value = answer;
 
+    if (eval(equation) = False) {
+        document.getElementById("result").value = "error";
+    }
+    
 }

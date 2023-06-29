@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     padding: red;
+    background-size:0%;
+    background-color:darkblue;
 }
 
 
@@ -14,4 +16,15 @@
 }
 #ac {
     background-color: red;
+}
+input[type=text]{
+    width: 700px;
+    height:100px;
+}
+input[type=button] {
+    width: 100px;
+    height: 50px;
+}
+input[value]{
+    font-size: 25px;
 }
