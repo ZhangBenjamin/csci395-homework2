@@ -59,12 +59,16 @@ function calculatesqrt(){
     document.getElementById("result").value = answer;
 }
 
-function calculatefactorial(x) {
-    if (x == 0) {
-        document.getElementById("result").value = answer;
-    }
+function calculatefactorial() {
     let equation = document.getElementById("result").value;
-    let answer = x * calculatefactorial(x - 1);
-    
+    let answer = factorial(equation);
+    document.getElementById("result").value = answer;
 
 }
+function factorial(x) {
+    if (x == 0) {
+        return 1;
+    }
+    return x * factorial(x-1);
+}
+
